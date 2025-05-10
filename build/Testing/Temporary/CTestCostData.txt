@@ -1,0 +1,28 @@
+hrs-binary-search-directed-test 72 0.0036486
+hrs-linear-search-directed-test 72 0.00419412
+hrs-table-search-directed-test 0 0
+hrs-tree-search-directed-test 0 0
+image-directed-test 77 0.000968511
+image-random-test 77 4.89486e-05
+sort-image-directed-test 77 2.35776e-05
+sort-image-random-test 77 0.000349362
+sort-int-directed-test 77 1.93414e-05
+sort-int-random-test 77 3.61964e-05
+table-image-directed-test 71 2.08885e-05
+table-image-random-test 71 1.93941e-05
+table-int-directed-test 71 1.86475e-05
+table-int-random-test 71 1.91983e-05
+tree-image-directed-test 0 0
+tree-image-random-test 0 0
+tree-int-directed-test 34 7.06776e-05
+tree-int-random-test 0 0
+vector-image-directed-test 74 3.02668e-05
+vector-image-random-test 73 0.000155101
+vector-int-directed-test 73 2.23611e-05
+vector-int-random-test 73 3.45663e-05
+---
+hrs-table-search-directed-test
+hrs-tree-search-directed-test
+tree-image-directed-test
+tree-image-random-test
+tree-int-random-test
