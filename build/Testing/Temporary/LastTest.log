@@ -1,0 +1,755 @@
+Start testing: May 09 21:27 EDT
+----------------------------------------------------------
+1/22 Testing: hrs-binary-search-directed-test
+1/22 Test: hrs-binary-search-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/hrs-binary-search-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"hrs-binary-search-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+test_case_1_classify_zero
+
+test_case_2_classify_seven
+
+test_case_3_tiny_accuracy
+Accuracy: 0.6
+
+test_case_4_small_accuracy
+Accuracy: 0.83
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"hrs-binary-search-directed-test" end time: May 09 21:27 EDT
+"hrs-binary-search-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/22 Testing: hrs-linear-search-directed-test
+2/22 Test: hrs-linear-search-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/hrs-linear-search-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"hrs-linear-search-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+test_case_1_classify_zero
+
+test_case_2_classify_seven
+
+test_case_3_multiple_digits
+
+test_case_4_tiny_accuracy
+Accuracy: 0.6
+
+test_case_5_small_accuracy
+Accuracy: 0.83
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"hrs-linear-search-directed-test" end time: May 09 21:27 EDT
+"hrs-linear-search-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/22 Testing: hrs-table-search-directed-test
+3/22 Test: hrs-table-search-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/hrs-table-search-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"hrs-table-search-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+test_case_1_classify_zero
+training images
+label: 5
+intensity: 27525
+label: 0
+intensity: 31095
+label: 4
+intensity: 19443
+label: 1
+intensity: 17135
+label: 9
+intensity: 23214
+
+testing image
+label: ?
+intensity: 40672
+hrs-table-search-directed-test: /home/kp579/ece2400/pair-32/pa5-sys/src/HRSTableSearch.cc:22: HRSTableSearch::HRSTableSearch(int): Assertion `false && "TODO: HRSTableSearch::HRSTableSearch( int K )"' failed.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Failed.
+"hrs-table-search-directed-test" end time: May 09 21:27 EDT
+"hrs-table-search-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/22 Testing: hrs-tree-search-directed-test
+4/22 Test: hrs-tree-search-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/hrs-tree-search-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"hrs-tree-search-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+hrs-tree-search-directed-test: /home/kp579/ece2400/pair-32/pa5-sys/src/HRSTreeSearch.cc:22: HRSTreeSearch::HRSTreeSearch(int): Assertion `false && "TODO: HRSTreeSearch::HRSTreeSearch( int K )"' failed.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Failed.
+"hrs-tree-search-directed-test" end time: May 09 21:27 EDT
+"hrs-tree-search-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/22 Testing: image-directed-test
+5/22 Test: image-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/image-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"image-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+test_case_1_basic
+
+test_case_2_default_constructor
+
+test_case_3_construct_size_mismatch
+
+test_case_4_at_out_of_bound
+
+test_case_5_label
+
+test_case_6_intensity
+
+test_case_7_distance
+
+test_case_8_distance_mismatch
+
+test_case_9_intensity_same_dim
+
+test_case_10_intensity_diff_dim
+
+test_case_11_equality_same_dim
+
+test_case_12_equality_diff_dim
+
+test_case_13_copy_v1
+
+test_case_14_copy_v2
+
+test_case_15_copy_empty
+
+test_case_16_assignment
+
+test_case_17_assignment_to_empty
+
+test_case_18_assignment_from_empty
+
+test_case_19_assignment_empty
+
+test_case_20_bracket_read
+
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"image-directed-test" end time: May 09 21:27 EDT
+"image-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/22 Testing: image-random-test
+6/22 Test: image-random-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/image-random-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"image-random-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+test_case_1_simple
+
+test_case_2_copy
+
+test_case_3_intensity
+
+test_case_4_exceptions
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"image-random-test" end time: May 09 21:27 EDT
+"image-random-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/22 Testing: sort-image-directed-test
+7/22 Test: sort-image-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/sort-image-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"sort-image-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+ Testing with 1x1 images 
+
+1: test_case_helper
+
+2: test_case_five_element
+
+2: test_case_five_element
+
+2: test_case_five_element
+
+3: test_case_empty
+
+4: test_case_one_element
+
+5: test_case_two_elements
+
+6: test_case_three_elements
+
+7: test_case_even_size_array
+
+8: test_case_odd_size_array
+
+9: test_case_almost_sorted
+
+10: test_case_sorted_ascending
+
+11: test_case_sorted_descending
+
+12: test_case_few_unique
+
+
+ Testing with 3x3 images 
+
+13: test_case_helper
+
+14: test_case_five_element
+
+15: test_case_empty
+
+16: test_case_one_element
+
+17: test_case_two_elements
+
+18: test_case_three_elements
+
+19: test_case_even_size_array
+
+20: test_case_odd_size_array
+
+21: test_case_almost_sorted
+
+22: test_case_sorted_ascending
+
+23: test_case_sorted_descending
+
+24: test_case_few_unique
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"sort-image-directed-test" end time: May 09 21:27 EDT
+"sort-image-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/22 Testing: sort-image-random-test
+8/22 Test: sort-image-random-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/sort-image-random-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"sort-image-random-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+ Testing with 1x1 images 
+
+1: test_case_random
+
+2: test_case_random_few_unique
+
+
+ Testing with 3x3 images 
+
+3: test_case_random
+
+4: test_case_random_few_unique
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"sort-image-random-test" end time: May 09 21:27 EDT
+"sort-image-random-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/22 Testing: sort-int-directed-test
+9/22 Test: sort-int-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/sort-int-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"sort-int-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+1: test_case_helper
+
+2: test_case_five_element
+
+2: test_case_five_element
+
+2: test_case_five_element
+
+3: test_case_empty
+
+4: test_case_one_element
+
+5: test_case_two_elements
+
+6: test_case_three_elements
+
+7: test_case_even_size_array
+
+8: test_case_odd_size_array
+
+9: test_case_almost_sorted
+
+10: test_case_sorted_ascending
+
+11: test_case_sorted_descending
+
+12: test_case_few_unique
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"sort-int-directed-test" end time: May 09 21:27 EDT
+"sort-int-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/22 Testing: sort-int-random-test
+10/22 Test: sort-int-random-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/sort-int-random-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"sort-int-random-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+1: test_case_random
+
+2: test_case_random_few_unique
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"sort-int-random-test" end time: May 09 21:27 EDT
+"sort-int-random-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/22 Testing: table-image-directed-test
+11/22 Test: table-image-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/table-image-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"table-image-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"table-image-directed-test" end time: May 09 21:27 EDT
+"table-image-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/22 Testing: table-image-random-test
+12/22 Test: table-image-random-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/table-image-random-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"table-image-random-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"table-image-random-test" end time: May 09 21:27 EDT
+"table-image-random-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/22 Testing: table-int-directed-test
+13/22 Test: table-int-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/table-int-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"table-int-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"table-int-directed-test" end time: May 09 21:27 EDT
+"table-int-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/22 Testing: table-int-random-test
+14/22 Test: table-int-random-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/table-int-random-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"table-int-random-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"table-int-random-test" end time: May 09 21:27 EDT
+"table-int-random-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/22 Testing: tree-image-directed-test
+15/22 Test: tree-image-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/tree-image-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"tree-image-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Failed.
+"tree-image-directed-test" end time: May 09 21:27 EDT
+"tree-image-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/22 Testing: tree-image-random-test
+16/22 Test: tree-image-random-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/tree-image-random-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"tree-image-random-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+free(): invalid pointer
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Failed.
+"tree-image-random-test" end time: May 09 21:27 EDT
+"tree-image-random-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/22 Testing: tree-int-directed-test
+17/22 Test: tree-int-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/tree-int-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"tree-int-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+1: test_case_simple_add
+ - [ [32mpassed[0m ] tree-directed-test.h:29:  tree.size() == 0 (0 == 0)
+ - [ [32mpassed[0m ] tree-directed-test.h:38:  tree.size() == 3 (3 == 3)
+ - [ [32mpassed[0m ] tree-directed-test.h:42:  tree.contains(data[i]) (1)
+ - [ [32mpassed[0m ] tree-directed-test.h:42:  tree.contains(data[i]) (1)
+ - [ [32mpassed[0m ] tree-directed-test.h:42:  tree.contains(data[i]) (1)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tree-int-directed-test" end time: May 09 21:27 EDT
+"tree-int-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/22 Testing: tree-int-random-test
+18/22 Test: tree-int-random-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/tree-int-random-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"tree-int-random-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Failed.
+"tree-int-random-test" end time: May 09 21:27 EDT
+"tree-int-random-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/22 Testing: vector-image-directed-test
+19/22 Test: vector-image-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/vector-image-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"vector-image-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+ Testing with 1x1 images 
+
+1: test_case_simple_push_back
+The value at (vector) index 0 is -1373248720
+The value at (data) index 0 is -1373248688
+The value at (vector) index 1 is -1373248720
+The value at (data) index 1 is -1373248688
+The value at (vector) index 2 is -1373248720
+The value at (data) index 2 is -1373248688
+
+2: test_case_at_out_of_bound
+
+3: test_case_construct
+
+4: test_case_construct_empty
+
+5: test_case_contains_simple
+
+6: test_case_contains_empty
+
+7: test_case_find_closest_linear
+
+8: test_case_find_closest_linear
+
+9: test_case_find_closest_linear
+
+10: test_case_find_closest_linear
+
+11: test_case_find_closest_linear_empty
+
+12: test_case_sort_simple
+
+13: test_case_sort_simple
+
+14: test_case_sort_simple
+
+15: test_case_find_closest_binary
+
+16: test_case_find_closest_binary_empty
+
+17: test_case_find_closest_binary_unsorted
+
+18: test_case_subscript
+
+19: test_case_copy_v1
+
+20: test_case_copy_v2
+
+21: test_case_copy_empty
+
+22: test_case_assignment
+
+23: test_case_assignment_to_empty
+
+24: test_case_assignment_from_empty
+
+25: test_case_assignment_empty
+
+26: test_case_assignment_self
+
+27: test_case_general
+
+
+ Testing with 3x3 images 
+
+28: test_case_simple_push_back
+The value at (vector) index 0 is -1373248720
+The value at (data) index 0 is -1373248688
+The value at (vector) index 1 is -1373248720
+The value at (data) index 1 is -1373248688
+The value at (vector) index 2 is -1373248720
+The value at (data) index 2 is -1373248688
+
+29: test_case_at_out_of_bound
+
+30: test_case_construct
+
+31: test_case_construct_empty
+
+32: test_case_contains_simple
+
+33: test_case_contains_empty
+
+34: test_case_find_closest_linear
+
+35: test_case_find_closest_linear_empty
+
+36: test_case_sort_simple
+
+37: test_case_find_closest_binary
+
+38: test_case_find_closest_binary_empty
+
+39: test_case_find_closest_binary_unsorted
+
+40: test_case_subscript
+
+41: test_case_copy_v1
+
+42: test_case_copy_v2
+
+43: test_case_copy_empty
+
+44: test_case_assignment
+
+45: test_case_assignment_to_empty
+
+46: test_case_assignment_from_empty
+
+47: test_case_assignment_empty
+
+48: test_case_assignment_self
+
+49: test_case_general
+
+test_case_50_find_closest_different
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"vector-image-directed-test" end time: May 09 21:27 EDT
+"vector-image-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/22 Testing: vector-image-random-test
+20/22 Test: vector-image-random-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/vector-image-random-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"vector-image-random-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+ Testing with 1x1 images 
+
+1: test_case_push_back_random
+
+2: test_case_copy_random
+
+3: test_case_construct_random
+
+4: test_case_find_closest_linear_random
+
+5: test_case_general_random
+
+
+ Testing with 3x3 images 
+
+6: test_case_push_back_random
+
+7: test_case_copy_random
+
+8: test_case_construct_random
+
+9: test_case_find_closest_linear_random
+
+10: test_case_general_random
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"vector-image-random-test" end time: May 09 21:27 EDT
+"vector-image-random-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/22 Testing: vector-int-directed-test
+21/22 Test: vector-int-directed-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/vector-int-directed-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"vector-int-directed-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+1: test_case_simple_push_back
+The value at (vector) index 0 is 10
+The value at (data) index 0 is 10
+The value at (vector) index 1 is 11
+The value at (data) index 1 is 11
+The value at (vector) index 2 is 12
+The value at (data) index 2 is 12
+
+2: test_case_at_out_of_bound
+
+3: test_case_construct
+
+4: test_case_construct_empty
+
+5: test_case_contains_simple
+
+6: test_case_contains_empty
+
+7: test_case_find_closest_linear
+
+8: test_case_find_closest_linear
+
+9: test_case_find_closest_linear
+
+10: test_case_find_closest_linear_empty
+
+11: test_case_sort_simple
+
+12: test_case_sort_simple
+
+13: test_case_sort_simple
+
+14: test_case_find_closest_binary
+
+15: test_case_find_closest_binary_empty
+
+16: test_case_find_closest_binary_unsorted
+
+17: test_case_subscript
+
+18: test_case_copy_v1
+
+19: test_case_copy_v2
+
+20: test_case_copy_empty
+
+21: test_case_assignment
+
+22: test_case_assignment_to_empty
+
+23: test_case_assignment_from_empty
+
+24: test_case_assignment_empty
+
+25: test_case_assignment_self
+
+26: test_case_general
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"vector-int-directed-test" end time: May 09 21:27 EDT
+"vector-int-directed-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/22 Testing: vector-int-random-test
+22/22 Test: vector-int-random-test
+Command: "/home/kp579/ece2400/pair-32/pa5-sys/build/test/vector-int-random-test"
+Directory: /home/kp579/ece2400/pair-32/pa5-sys/build/test
+"vector-int-random-test" start time: May 09 21:27 EDT
+Output:
+----------------------------------------------------------
+
+1: test_case_push_back_random
+
+2: test_case_copy_random
+
+3: test_case_construct_random
+
+4: test_case_find_closest_linear_random
+
+5: test_case_find_closest_binary_random
+
+6: test_case_general_random
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"vector-int-random-test" end time: May 09 21:27 EDT
+"vector-int-random-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 09 21:27 EDT
