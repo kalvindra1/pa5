@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/table-adhoc.dir/table-adhoc.cc.o" -o table-adhoc  libpa5-sys-lib.a -lm 
