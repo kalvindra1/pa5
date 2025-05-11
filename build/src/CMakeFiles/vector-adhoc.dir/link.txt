@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/vector-adhoc.dir/vector-adhoc.cc.o" -o vector-adhoc  libpa5-sys-lib.a -lm 
